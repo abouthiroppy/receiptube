@@ -1,0 +1,16 @@
+html {
+   font-family: GillSans, Calibri, Trebuchet, sans-serif;
+ }
+
+.container {
+  width: 95%;
+}
+
+.tabs-box {
+  margin-bottom: 0;
+}
+
+.result-box {
+  height: 100%;
+  overflow-y: auto;
+}

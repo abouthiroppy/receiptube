@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>receiptube</title>
+  <link rel="stylesheet" href="./../../bower_components/materialize/dist/css/materialize.min.css" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <script>
+    window.jQuery = window.$ = require('./../../bower_components/jquery/dist/jquery.min.js');
+    window.Hammer = require('./../../bower_components/materialize/js/hammer.min.js');
+  </script>
+  <!-- <script>require('electron-connect').client.create()</script> -->
+  <script src="./../../bower_components/materialize/js/hammer.min.js"></script>
+  <script src="./../../bower_components/materialize/dist/js/materialize.min.js"></script>
+  <script src="./../../build/lib/main.js"></script>
+  <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="row tabs-box">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s3"><a class="active" href="#test1">Home</a></li>
+            <li class="tab col s3"><a href="#test2">History</a></li>
+            <li class="tab col s3"><a href="#test3">My List</a></li>
+            <li class="tab col s3"><a href="#test4">Favorite</a></li>
+          </ul>
+        </div>
+      </div> <!-- row -->
+      <div class="row">
+        <div class="col s3 search-box">
+          <div class="input-field col s12">
+            <input id="search-video" type="text" class="validate">
+            <label for="search-video">keyword</label>
+          </div>
+          <div id="search-video-list" class="col s12">
+          </div>
+          <div class="col s9 result-box">
+            <div class="col s3">
+            </div>
+            <div class="col s3">
+            </div>
+            <div class="col s3">
+            </div>
+            <div class="col s3">
+            </div>
+            <div class="col s3">
+            </div>
+            <div class="col s3">
+            </div>
+            <div class="col s3">
+            </div>
+            <div class="col s3">
+            </div>
+            <div class="col s3">
+            </div>
+          </div>
+        </div>
+      </div> <!-- row -->
+    </div> <!-- container -->
+  </div> <!-- wrapper -->
+</body>
+</html>

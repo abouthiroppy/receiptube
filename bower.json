@@ -1,0 +1,24 @@
+{
+  "name": "receiptube",
+  "version": "0.0.0",
+  "authors": [
+    "abouthiroppy <git@about-hiroppy.com>"
+  ],
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.97.0",
+    "google-api-javascript-client": "git@github.com:google/google-api-javascript-client.git",
+    "react": "~0.13.3"
+  }
+}
